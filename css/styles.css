@@ -492,6 +492,7 @@ h1, h2, h3, h4 {
   background: linear-gradient(90deg, var(--accent) 0%, #f5d56e 100%);
   border-radius: inherit;
   transform-origin: left;
+  width: calc(var(--w, 0) * 100%);
   transform: scaleX(0);
   transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
